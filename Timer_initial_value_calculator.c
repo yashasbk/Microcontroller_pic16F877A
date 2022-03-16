@@ -1,6 +1,7 @@
 /*
 Name : Yashas B K 
 Description : This code gives the initial value for the timer register
+Note : Better to take the i value as max as possible as it will reduce the number of interrupt calls which inturn reduces context switching
 */
 
 #define INITIAL 1  //This is the initial value Note:never make it 0
